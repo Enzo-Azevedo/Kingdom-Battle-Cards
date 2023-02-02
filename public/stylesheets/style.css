@@ -20,3 +20,10 @@
     font-family: "Cambria";
     word-spacing: 5px;
 }
+
+#google-login {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%);
+}
