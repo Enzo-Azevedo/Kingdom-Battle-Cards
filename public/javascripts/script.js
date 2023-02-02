@@ -1,5 +1,8 @@
+const divlogin = document.getElementsByClassName('root')
+
 function onSuccess(googleUser) {
     console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    divlogin.style.display = 'none'
   }
   function onFailure(error) {
     console.log(error);
@@ -23,3 +26,8 @@ function onSignIn(googleUser) {
     console.log('Image URL: ' + profile.getImageUrl());
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 }
+
+
+// Page content
+
+
